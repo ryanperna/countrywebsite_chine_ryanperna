@@ -1,17 +1,20 @@
-/* General Page Styling */
+
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f9f9f9;
+  font-family: Arial;
+  background-image: url("china.jpg"); 
+  background-size: cover;             
+  background-position: center;        
+  background-attachment: fixed;       
   color: #333;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Banner */
+
 header {
-  background-color: #b22222; /* deep red */
+  background-color: rgba(178, 34, 34, 0.85);
   color: white;
   text-align: center;
   padding: 30px 0;
@@ -22,9 +25,9 @@ header h1 {
   font-size: 2.5em;
 }
 
-/* Navigation */
+
 nav {
-  background-color: #333;
+  background-color: rgba(51, 51, 51, 0.85); 
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -39,17 +42,19 @@ nav a {
   transition: background-color 0.3s ease;
 }
 
-/* Hover effect: grey tint */
+
 nav a:hover {
-  background-color: #555; /* grey tint */
+  background-color: #555;
 }
 
-/* Main Content */
+
 main {
   flex: 1;
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 8px;
 }
 
 main h2 {
@@ -61,9 +66,9 @@ ul {
   padding-left: 20px;
 }
 
-/* Footer */
+
 footer {
-  background-color: #333;
+  background-color: rgba(51, 51, 51, 0.85);
   color: white;
   text-align: center;
   padding: 15px 0;
