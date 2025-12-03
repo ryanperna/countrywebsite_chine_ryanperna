@@ -1,0 +1,70 @@
+/* General Page Styling */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Banner */
+header {
+  background-color: #b22222; /* deep red */
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Navigation */
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect: grey tint */
+nav a:hover {
+  background-color: #555; /* grey tint */
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main h2 {
+  color: #b22222;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
